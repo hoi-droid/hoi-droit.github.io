@@ -20,7 +20,7 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import { jsPDF } from 'jspdf';
 import { ProductType, MockupConfig, ProductTemplate, SavedMockup } from './types';
-import { generateMockup, editMockup } from './services/gemini';
+import { generateMockup, editMockup } from './gemini';
 
 const PRODUCT_TEMPLATES: ProductTemplate[] = [
   { 
